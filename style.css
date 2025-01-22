@@ -1,0 +1,28 @@
+```css
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: #f0f0f0; /* Change as needed */
+}
+
+.profile {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url('path_to_your_background_image.jpg'); /* Add your background image */
+    background-size: cover;
+}
+
+.name {
+    position: absolute;
+    top: 20px; /* Adjust as needed */
+    left: 20px; /* Adjust as needed */
+    font-size: 36px; /* Change font size */
+    color: white; /* Change text color */
+    font-weight: bold; /* Change font weight */
+}
+```
